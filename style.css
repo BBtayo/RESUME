@@ -1,0 +1,135 @@
+body {
+    background-image: url('images (6).jpg');
+    background-size: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+main {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    padding: 1em;
+    display: flex;
+    justify-content: right;
+    border: 1px solid purple;
+    border-radius: 50px;
+    background-color: white;
+}
+img {
+    margin: auto;
+    border-radius: 60%;
+    filter: grayscale(70%);
+}
+h3 {
+    font-size: 0.8rem;
+    color: purple;
+}
+h4 {
+    font-size: 0.8rem;
+    color: brown;
+    text-align: left;
+}
+p {
+    font-size: 1.0rem;
+    color: burlywood;
+}
+div {
+    width: 20%;
+    height: 100%;
+    margin: 0;
+    padding: 1em;
+    border: 1px solid pink;
+    border-radius: 30px;
+    background-color: palevioletred; 
+}
+ul {
+    color: burlywood;
+}
+div.media {
+    width: 90%;
+    margin: auto;
+    padding: 1em; 
+    display: flex;
+    justify-content: space-evenly;
+    border: none;
+}
+div.media img  {
+    width: 80%;
+}
+div.skills {
+    width: 25%;
+    padding: 0.5em; 
+}
+div.awards {
+    width: 90%;
+    padding: 0.5em;
+    border: none;
+}
+div.education {
+    width: 25%;
+    padding: 0.5em;
+}
+div.vwork {
+    width: 25%;
+    padding: 0.5em;
+}
+div.ework {
+    width: 90%;
+    padding: 0.5em;
+    border: none;
+}
+
+
+@media screen and (max-width: 780px) {
+    main {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding: 1em;
+    display: list-item;
+    border: 1px solid purple;
+    border-radius: 50px;
+    background-color: white;
+    }
+    div {
+        width: 95%;
+        height: 20%;
+        margin: right;
+        padding: 0.5em;
+        border: 1px solid pink;
+        border-radius: 30px;
+        background-color: palevioletred; 
+    }
+    div.media {
+        width: 95%;
+        margin: auto;
+        padding: 0.5em; 
+        display: flex;
+        justify-content: space-evenly;
+        border: none;
+    }
+    div.media img  {
+        width: 80%;
+    }
+    div.skills {
+        width: 95%;
+        padding: 0.5em; 
+    }
+    div.awards {
+        width: 95%;
+        padding: 0.5em;
+        border: none;
+    }
+    div.education {
+        width: 95%;
+        padding: 0.5em;
+    }
+    div.vwork {
+        width: 95%;
+        padding: 0.5em;
+    }
+    div.ework {
+        width: 95%;
+        padding: 0.5em;
+        border: none;
+    }
+}
